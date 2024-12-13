@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View Registrations</title>
+    <link rel="stylesheet" href="/resources/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>View Registrations</h1>
+        <nav>
+            <a href="/UI/registrations/register">Register</a>
+            <a href="/UI/registrations/view">View Registrations</a>
+        </nav>
+        
+        <div class="search-section">
+            <input type="text" id="searchInput" placeholder="Enter name, event name, or ticket number">
+            <div class="button-group">
+                <button id="viewAll">View All</button>
+                <button id="searchByName">Search by Name</button>
+                <button id="searchByEvent">Search by Event</button>
+                <button id="deleteTicket">Delete Ticket</button>
+            </div>
+        </div>
+        
+        <div id="results"></div>
+    </div>
+    <script src="/resources/js/registration.js"></script>
+</body>
+</html>
